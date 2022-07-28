@@ -79,8 +79,8 @@ df["title"].nunique()             #eski hali 27262
 
 user_movie_df = common_movies.pivot_table(index=["userId"], columns=["title"], values="rating")
 user_movie_df
-user_movie_df.shape  #satır 138493 userlar
-user_movie_df.columns  # sütunlarda 3159  filmler
+user_movie_df.shape  #satır 138493 user
+user_movie_df.columns  # sütunlarda 3159 film
 
 #########
 #Adım 5: Yapılan tüm işlemleri fonksiyonlaştırınız.
